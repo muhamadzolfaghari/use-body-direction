@@ -3,7 +3,7 @@
 ## Usage
 
 ```tsx
-import useBodyDirection from "useBodyDirection";
+import useBodyDirection from "use-body-direction";
 import { useEffect } from "react";
 
 export default function App() {
