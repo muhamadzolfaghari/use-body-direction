@@ -1,4 +1,22 @@
-# Use Body Direction Hook for React
+# useBodyDirection
+
+## Usage
+
+```tsx
+import useBodyDirection from "useBodyDirection";
+import { useEffect } from "react";
+import console = require("console");
+
+export default function App() {
+  const direction = useBodyDirection();
+
+  useEffect(() => {
+    console.log(`The current body direction is '${rtl}'`);
+  }, [direction]);
+} 
+```
+
+## Use Body Direction Hook for React
 
 An example to introduce the MutationObserver class, the original code is available in the src folder as a React Hook
 which allows the user to detect any change in style property of the body element, especially when change is related to
