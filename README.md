@@ -5,13 +5,12 @@
 ```tsx
 import useBodyDirection from "useBodyDirection";
 import { useEffect } from "react";
-import console = require("console");
 
 export default function App() {
   const direction = useBodyDirection();
 
   useEffect(() => {
-    console.log(`The current body direction is '${rtl}'`);
+    console.log(`The current body direction is '${directoin}'`);
   }, [direction]);
 } 
 ```
