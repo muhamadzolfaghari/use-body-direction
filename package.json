@@ -1,6 +1,6 @@
 {
   "name": "use-body-direction",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "A hook to detect change in the body direction style.",
   "main": "dist/index.js",
   "repository": {
