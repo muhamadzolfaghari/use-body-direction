@@ -1,3 +1,1 @@
-import useBodyDirection from "./useBodyDirection";
-
-export default useBodyDirection;
+export * from './components';
